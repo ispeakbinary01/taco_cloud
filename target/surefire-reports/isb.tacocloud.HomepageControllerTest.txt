@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: isb.tacocloud.HomepageControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.108 s <<< FAILURE! - in isb.tacocloud.HomepageControllerTest
+testHomePage  Time elapsed: 0.484 s  <<< FAILURE!
+java.lang.AssertionError: 
+Response content expected:<> but was:<<!DOCTYPE html>
+<html lang="html5">
+    <head>
+        <title>Taco Cloud (Spring in Action)</title>
+    </head>
+    <body>
+        <h1>Welcome to..</h1>
+        <img src="/images/TacoCloud.png" alt="no img"/>
+    </body>
+</html>>
+	at isb.tacocloud.HomepageControllerTest.testHomePage(HomepageControllerTest.java:24)
+
